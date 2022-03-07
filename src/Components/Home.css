@@ -69,7 +69,7 @@ body {
   text-transform: uppercase;
   position: relative;
   display: flex;
-  bottom: 500px;
+  bottom: 510px;
   color: #ffff;
   z-index: 1000;
 }
@@ -78,7 +78,7 @@ body {
   font-size: 14px;
   display: flex;
   position: relative;
-  bottom: 500px;
+  bottom: 510px;
   text-transform: uppercase;
 }
 .banner_title_button {

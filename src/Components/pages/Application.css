@@ -1,0 +1,48 @@
+.contactform_banner {
+  position: relative;
+  bottom: 12px;
+  right: 22px;
+  height: 550px;
+  /* width: 500px; */
+}
+.form_title {
+  position: relative;
+  right: 80px;
+}
+.input {
+  position: relative;
+  right: 80px;
+  margin: 1%;
+  height: 50px;
+  outline: none;
+  border: none;
+  background-color: #f2f2f2;
+  width: 350px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+.selectable {
+  position: relative;
+  right: 80px;
+  margin: 1%;
+  height: 50px;
+  outline: none;
+  border: none;
+  background-color: #f2f2f2;
+  width: 350px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.form_btn {
+  position: relative;
+  right: 76px;
+  height: 40px;
+  width: 150px;
+  border-style: none;
+  background-color: #183B5A;
+  color: white;
+}

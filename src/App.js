@@ -5,6 +5,7 @@ import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import FrontEndDevelopment from "./Components/pages/FrontEndDevelopment";
+import Application from "./Components/pages/Application";
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
             exact
             path="/front-end-dev"
             element={<FrontEndDevelopment />}
+          />
+          <Route
+            exact
+            path="/application"
+            element={<Application/>}
           />
         </Routes>
       </BrowserRouter>
