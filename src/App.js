@@ -1,17 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './Components/Home';
-import Navbar from './Components/Navbar';
-import Services from './Components/Services';
-import Footer from './Components/Footer';
+import logo from "./logo.svg";
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Components/Home";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+import FrontEndDevelopment from "./Components/pages/FrontEndDevelopment";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Navbar />
-      <Home />
-      <Footer />
-    </div>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route
+            exact
+            path="/front-end-dev"
+            element={<FrontEndDevelopment />}
+          />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
